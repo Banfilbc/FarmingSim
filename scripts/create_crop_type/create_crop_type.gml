@@ -13,9 +13,10 @@ if (!ds_exists(ds_crop_types, ds_type_grid)) {
 	height +=1
 }
 
+var yy = height-1;
 var i = 0;
 repeat (argNum) {
-	ds_crop_types[# i,y] = argument[i];
+	ds_crop_types[# i,yy] = argument[i];
 	i +=1;
 }
 
