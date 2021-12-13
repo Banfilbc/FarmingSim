@@ -4,8 +4,8 @@ if (keyboard_check_pressed(ord("P"))) {
 }
 
 if (planting) {
-	mx = round(mouse_x / 48) * 48;
-	my = round(mouse_y / 48) * 48;
+	mx = round((mouse_x - 32) / 64) * 64;
+	my = round((mouse_y - 32)/ 64) * 64;
 	
 	var valid = true;
 	with (obj_crop) {
