@@ -6,7 +6,7 @@
     {"id":{"name":"spr_tilled","path":"sprites/spr_tilled/spr_tilled.yy",},"order":10,},
     {"id":{"name":"daycycle","path":"objects/daycycle/daycycle.yy",},"order":0,},
     {"id":{"name":"instance_create_crop","path":"scripts/instance_create_crop/instance_create_crop.yy",},"order":0,},
-    {"id":{"name":"a172c532ff5897d8d118a33ada08534a","path":"sprites/a172c532ff5897d8d118a33ada08534a/a172c532ff5897d8d118a33ada08534a.yy",},"order":3,},
+    {"id":{"name":"player_spritesheet","path":"sprites/player_spritesheet/player_spritesheet.yy",},"order":11,},
     {"id":{"name":"obj_crop","path":"objects/obj_crop/obj_crop.yy",},"order":2,},
     {"id":{"name":"obj_slot","path":"objects/obj_slot/obj_slot.yy",},"order":6,},
     {"id":{"name":"ground","path":"tilesets/ground/ground.yy",},"order":0,},
