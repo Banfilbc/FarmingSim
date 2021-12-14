@@ -1,3 +1,4 @@
+/*
 slots = [];
 
 global.view_x = camera_get_view_width(view_camera[0]) + camera_get_view_x(view_camera[0]);
@@ -9,3 +10,4 @@ for (var i = 0; i < 9; i++) {
 	slot.slotnum = i;
 	show_debug_message(string(slot.x) + " " + string(slot.y))
 }
+*/
