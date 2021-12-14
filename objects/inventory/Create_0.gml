@@ -1,3 +1,4 @@
+global.purse = 0;
 /*
 slots = [];
 
