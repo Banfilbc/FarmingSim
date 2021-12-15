@@ -10,11 +10,9 @@ function instance_create_crop(argument0, argument1, argument2){
 	var data = tilemap_get_at_pixel(map_id, argument0, argument1);
 	
 	if (data == 0) {
-		show_debug_message("no soil");
+		//show_debug_message("no soil");
 		return false;
-	} else {
-		show_debug_message("soil");
-	}
+	} 
 	
 	//create instance
 	var inst = instance_create_layer(argument0, argument1, "Instances", obj_crop);

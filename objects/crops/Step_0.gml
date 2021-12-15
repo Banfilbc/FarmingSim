@@ -20,9 +20,12 @@ if (planting) {
 		} else if (selectCrop < 0) {
 			selectCrop = sprite_get_number(spr_crops_picked) -1;
 		}
+		
+		var cost = crops.ds_crop_types[# 1, selectCrop];
 	
-		if (mouse_check_button_pressed(mb_left)){
+		if (mouse_check_button_pressed(mb_left) && global.purse >= cost) {
 				instance_create_crop(mx, my, selectCrop);
+				global.purse -= cost;
 		}
 	}
 }

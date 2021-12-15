@@ -19,6 +19,6 @@ repeat (argNum) {
 	ds_crop_types[# i,yy] = argument[i];
 	i +=1;
 }
-
+	//show_debug_message(string(argument[0]))
 }
 
